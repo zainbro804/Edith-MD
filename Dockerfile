@@ -1,19 +1,15 @@
-# Base image
 FROM node:lts-buster
 
 # Set working directory
-WORKDIR /
+WORKDIR /app
 
-# Copy only package.json
-COPY package.json .
-
-# Install production dependencies
-RUN npm install --omit=dev
-
-# Copy the rest of the application
+# Copy all local files to container
 COPY . .
 
-# Expose your app port
+# Install dependencies
+RUN npm install && npm install -g pm2
+
+# Expose the port your app listens on
 EXPOSE 9090
 
 # Start the app
