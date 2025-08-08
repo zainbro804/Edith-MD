@@ -142,7 +142,7 @@ jobs:
 ```diff
 + Project Status: Active
 ! Version: V.5 Neon Edition
-# License: BSD 3-Clause
+# License: MIT
 ```
 
 
