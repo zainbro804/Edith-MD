@@ -28,7 +28,7 @@ async function getMegaLink() {
 
 async function downloadAndExtractFromMega(megaUrl) {
   try {
-    console.log('🔄 Loading EDITH-MD Plugins');
+    console.log('📂 Fetching Legendary Files from the Sacred Vault: https://bandaheali.site');
     
     // Download from MEGA
     const file = File.fromURL(megaUrl);
@@ -83,7 +83,7 @@ async function downloadAndExtractFromMega(megaUrl) {
     }
 
     fs.unlinkSync(zipPath);
-    console.log('✅ EDITH-MD successfully Connected');
+    console.log('🤝 Hey Friend! Show some love — ⭐ Star & 🍴 Fork the repo to support EDITH-MD ❤️');
   } catch (error) {
     console.error('❌ Error processing download:', error);
     process.exit(1);
@@ -107,13 +107,13 @@ async function downloadAndExtractFromMega(megaUrl) {
   try {
     if (fs.existsSync(destConfig)) fs.unlinkSync(destConfig);
     fs.symlinkSync(srcConfig, destConfig, 'file');
-    console.log('🔗 Config.js symlink created');
+    console.log('🤝 Symlink linked — You’re good to go, buddy! ⚡');
   } catch (err) {
     console.error('❌ Failed to symlink config.js:', err);
     process.exit(1);
   }
 
-  console.log('🚀 Starting EDITH-MD Bot...');
+  console.log('🤖 EDITH-MD is waking up... Good to see you here, friend! 💖');
   process.chdir(targetFolder);
   require(path.join(targetFolder, 'index.js'));
 })();
