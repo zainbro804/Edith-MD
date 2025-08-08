@@ -1,6 +1,6 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=8A2BE2&center=true&width=1150&height=200&lines=PLEASE-FORK-STAR-BOT-REPO" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=500&color=008080&center=true&width=1150&height=200&lines=PLEASE-FORK-STAR-BOT-REPO" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://i.ibb.co/C37nZNgZ/shaban-md.jpg'/></a>
+<a><img src='https://ik.imagekit.io/mrshaban/IMG-20250808-WA0034.jpg?'/></a>
 
 <p align="center">
   <a href="https://github.com/Bandah-E-Ali"><img title="Developer" src="https://img.shields.io/badge/Author-EDITH%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
