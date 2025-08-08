@@ -69,7 +69,7 @@ async function downloadAndExtractFromMega(megaUrl) {
       folder.toLowerCase().includes('edith-md')
     );
 
-    if (!shabanFolder) {
+    if (!edithFolder) {
       throw new Error('EDITH-MD folder not found after extraction');
     }
 
