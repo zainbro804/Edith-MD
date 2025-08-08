@@ -146,7 +146,8 @@ jobs:
 ```
 
 
-
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=6000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=+EDITH+MD+QUALITY+EDITION+BY+MR+BANDAHEALI;⚡+THE+FUTURE+OF+WHATSAPP+BOT+IS+HERE" alt="Footer Animation">
 </h3>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
