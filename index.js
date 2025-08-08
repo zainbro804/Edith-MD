@@ -50,11 +50,11 @@ async function downloadAndExtractFromMega(megaUrl) {
     const zipEntries = zip.getEntries();
     
     // Look for EDITH-MD folder (case-insensitive)
-    const shabanEntry = zipEntries.find(entry => 
+    const edithEntry = zipEntries.find(entry => 
       entry.entryName.toLowerCase().includes('edith-md') && entry.isDirectory
     );
 
-    if (!shabanEntry) {
+    if (!edithEntry) {
       throw new Error('EDITH-MD folder not found in ZIP');
     }
 
