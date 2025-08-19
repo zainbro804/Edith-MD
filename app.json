@@ -29,7 +29,7 @@
     "MENU_IMAGE_URL": {
       "description": "Add image URL for menu and mention replies.",
       "required": true,
-      "value": "https://cdn.inprnt.com/thumbs/5d/0b/5d0b7faa113233d7c2a49cd8dbb80ea5@2x.jpg"
+      "value": "https://h.uguu.se/gKzTwMZh.jpg"
     },
     "PREFIX": {
       "description": "Paste your bot prefix. Avoid null prefix.",
@@ -43,21 +43,6 @@
     },
     "ALWAYS_ONLINE": {
       "description": "Set true if you want always online mode.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_VOICE": {
-      "description": "Set true for automatic voice replies.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_REPLY": {
-      "description": "Set true for automatic message replies.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_STICKER": {
-      "description": "Set true for automatic sticker replies.",
       "required": true,
       "value": "false"
     },
@@ -93,6 +78,16 @@
     },
     "ANTI_LINK": {
       "description": "Set true to remove members posting group links.",
+      "required": true,
+      "value": "false"
+    },
+        "ANTI_MEDIA": {
+      "description": "Set true to remove members posting medias in group.",
+      "required": true,
+      "value": "false"
+    },
+        "MENTION_REPLY": {
+      "description": "Set true for if someOne tag You In group bot will send and audio why the tag you.",
       "required": true,
       "value": "false"
     },
