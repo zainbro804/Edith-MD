@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
   SESSION_ID: process.env.SESSION_ID || "",
-  START_IMG: process.env.START_IMG || "https://h.uguu.se/gKzTwMZh.jpg",
+  START_IMG: process.env.START_IMG || "https://cdn.inprnt.com/thumbs/5d/0b/5d0b7faa113233d7c2a49cd8dbb80ea5@2x.jpg",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -16,7 +16,7 @@ module.exports = {
   ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
   PREFIX: process.env.PREFIX || ".",
   MENTION_REPLY: process.env.MENTION_REPLY || "false",
-  MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://h.uguu.se/gKzTwMZh.jpg",
+  MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://cdn.inprnt.com/thumbs/5d/0b/5d0b7faa113233d7c2a49cd8dbb80ea5@2x.jpg",
   BOT_NAME: process.env.BOT_NAME || "EDITH-MD",
   STICKER_NAME: process.env.STICKER_NAME || "EDITH-MD",
   CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
