@@ -31,6 +31,7 @@ module.exports = {
   AUTO_REACT: process.env.AUTO_REACT || "false",
   ANTI_BAD: process.env.ANTI_BAD || "false",
   MODE: process.env.MODE || "public",
+ BOTMODE: process.env.BOTMODE || "button",
   ANTI_LINK: process.env.ANTI_LINK || "true",
   ANTI_MEDIA: process.env.ANTI_MEDIA || "false",
   AUTO_VOICE: process.env.AUTO_VOICE || "false",
